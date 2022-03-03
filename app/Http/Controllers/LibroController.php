@@ -19,16 +19,6 @@ class LibroController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -57,17 +47,6 @@ class LibroController extends Controller
     public function show(Libro $libro)
     {
         return $this->showOne($libro);
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Libro  $libro
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Libro $libro)
-    {
-        //
     }
 
     /**
